@@ -30,7 +30,7 @@ Welcome to HLB projects documentation GitHub repository !
 Firmware is made with QMK Rgb Matrix implementation. You have all effects available as well as *Direct Control* mode.
 Direct Control mode allow you to have all leds OFF but capslock/layers indicator on. Capslock indicator is always ON.
 
-Layers indicator is OFF by default and you can toggle the feature user the custom keycode *L_INDIC*. Add it to your keymap and press key to activate or deactivate. A white blinking led will notify you on change.
+Layers indicator is OFF by default and you can toggle the feature using the custom keycode *L_INDIC*. Add it to your keymap and press key to activate or deactivate. A white blinking led will notify you on change.
 
 ![INDIC](img/hlb60/vial1.jpg)
 
