@@ -8,8 +8,12 @@ Welcome to HLB projects documentation GitHub repository !
 *42/36% Split Keyboard with open source 3DP case* : [Project Repository](https://github.com/H3lli0n/CantorMx-3DP-case)
 ### 2024 - PoorKoi 1
 *60% stacked acrylic keyboard* : [Project Repository](https://github.com/H3lli0n/PoorKoi)
-## PCB documentation
 
+## Postponed project
+### 2026 - Hyperbolas
+*TKL keyboard* - current documentation : [Hyperbolas](https://mint-tomato-83b.notion.site/HLB-Hyperbolas-1f73f3e3ee1980ca9074c93834aa6d7d)
+
+## PCB documentation
 ### HLB60
 #### Description
 - 60% ANSI / ISO
