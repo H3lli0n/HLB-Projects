@@ -43,8 +43,8 @@ HLB60-H (hotswap) and HLB60-S (solder) vial firmware can be found here: [VIAL Re
 ##### PCB not flashed by pcb manufacturer
 When not flashed keyboard will be automatically in DFU mode when plugged on computer.
 ##### Flashed and want to upgrade to newer version
-Enter DFU mode by pressing escape and plugin keyboard or press twice on reset physical button on the back of pcb.
+Enter DFU mode by pressing escape and plugging the keyboard or press twice on reset physical button on the back of pcb.
 ![DFU](img/hlb60/dfumode.jpg)
 ##### Install firmware
-A usb drive will be open on Windows or listed in windows explorer. Simply copy paste the .UF2 file downloaded accordingly to the pcb version. Keyboard will reboot itself.
+A usb drive will be opened on Windows or listed in windows explorer. Simply copy paste the .UF2 file downloaded accordingly to the pcb version. Keyboard will reboot itself.
 ![WindowsExpl](img/hlb60/explorer.jpg)
