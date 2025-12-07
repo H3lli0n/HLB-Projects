@@ -23,10 +23,16 @@ Welcome to HLB projects documentation GitHub repository !
   - Long shift on solder version
   - 10U spacebar with 8U wire on solder version
 - Tsangan bottom row
+  - 6.25U on solder version
 - Underglow RGB
 - Capslock/Layers indicator
 - QMK / VIAL firware
   - RGB management under my userspace
+
+### Hotswap
+![Layouts](img/hlb60/hlb60-h_visual.svg)
+### Solder
+![Layouts](img/hlb60/hlb60-s_visual.svg)
 
 ![Vial layout](img/hlb60/vial0.jpg)
 
