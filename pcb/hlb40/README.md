@@ -1,6 +1,6 @@
-This project open-source, all files to order a batch of pcb-a are free to use. This project is also sponsored by PCBWay. 
+This project open-source, all files to order a batch of pcb-a are free to use. This project is also sponsored by PCBWay.
 
-PCBWay is an online services to manufacture pcb/pcb-a (pcb with assembly which means all components soldered). 
+PCBWay is an online service to manufacture pcb/pcb-a (pcb with assembly which means all components soldered).
 
 If you need their services please use the following link to support the team ! https://pcbway.com/g/4Gd3AJ
 ![PCBWay](PCBWay-logo-new.png)
@@ -27,26 +27,33 @@ If you need their services please use the following link to support the team ! h
 *Files will be available once tested*
 
 # How to order
-Ordering pcb through PCBWay is straightforward but you can be lost at some points so we will guide you along the process.
+Ordering pcb through PCBWay is straightforward but you can be lost at some steps so we will guide you along the process.
 
 ## Files
-Once you downloaded the pcb version you wan, unzip the archive into a folder. You shall have those files
+Once you downloaded the pcb version you want, unzip the archive into a folder. You shall have those files
 ![Files](tuto/001.png)
 - *hlb40_h.kicad_pcb_gerber.zip*: the main file containing all pcb data, layers, routes... Everything the service needs to fill data form
 - *hlb40_h.kicad_pcb_bom.csv*: listing of all components to assemble onto the pcb - each component is identified by a code and the service knows exactly what to order
 - *hlb40_h.kicad_pcb_positions.csv*: positions of each component on the pcb for assembly
 
+### Hotswap socket colors
+Hotswap sockets from Kailh brand are hard to find with online services. We are forced to use a generic brand but after many tests they are fine. They come in 3 colors (white/black/purple) and the global stock is also depending of the global economic context.
+In the BOM .csv file you can open with notepad you'll find them with Value = Keyswitch
+
+Look at the column LCSC and you'll find a code you change depending on the wanted color and the global stock:
+- Purple = C41430893 : https://www.lcsc.com/product-detail/C41430893.html
+- White = C49352235  : https://www.lcsc.com/product-detail/C49352235.html
+- Black (Kailh) = C5156480   : https://jlcpcb.com/partdetail/Kailh-CPG151101S1116/C5156480
+
 ## Creating PCBWay account
 The next step is to create an account on PCBWay by following our affiliated link https://pcbway.com/g/4Gd3AJ - once your account created you will receive later a $5 coupon.
 
 ## Requesting a quote
-Now it's time to order by uploading all files and selecting the right options. One key factor of the final price is the quantity.
-Default minimum quantity is 5 and price decreases with higher quantities. Before ordering you can find some friends or others hobbyist on our discord to buy a higher batches !
-
-Ok for this example we will order 5 pcb (the board with copper layers) and request 5 assemblies (components soldered on the pcb).
+Now it's time to order by uploading all files and selecting the right options. One key factor of the final price is the quantity, the more you order the less you pay.
+For this example we will order 5 pcb (the board with copper layers) and request 5 assemblies (components soldered on the pcb).
 
 ### PCB Quote menu
-Before assembly we have to quote the pcb itself, to do so click on *PCB Instant Quote*
+Before the assembly we have to quote the pcb itself, to do so click on *PCB Instant Quote*
 
 ![Step1](tuto/002.jpg)
 And *Quick Order*
@@ -72,14 +79,14 @@ Now we have to check the options and modify some items. As described before, the
 ![Step5b](tuto/006b.jpg)
 
 Don't hesitate to make an announcement on our discord maybe you'll find people interested in this order and split the cost.
-Also be aware that it might be expensive but PCBWay services is more "human" than others meaning a lot of reviews is done on your request to avoir mistakes.
+Also be aware that it might be expensive but PCBWay services does a lot of reviews on the order to avoid mistakes.
 
 #### Good looking PCB
 Our PCB is 1.6mm thickness and you can custom its color through *Solder mask* option. Here we select a red one (we will type faster for sure!)
 ![Step6](tuto/007.jpg)
 
 #### Soldering option
-Since we live in Europe and we are "eco friendly" please avoir lead that is now banned from our continent.
+Since we live in Europe and we are "eco friendly" please avoid lead that is now banned from our continent.
 Thanks to select *HASL lead free* meaning soldering is made from silver paste.
 ![Step7](tuto/008.jpg)
 
@@ -91,12 +98,12 @@ By default a serial number will be printed on the pcb. You can remove this print
 #### Assembly
 Now we are enabling the assembly part of the order. With this step each electronic component will be ordered and soldered. This step is mandatory.
 ![Step9](tuto/010.jpg)
+You just have to click on *Bottom side* meaning all our components will be soldered on the back.
 
 #### Custom options
 This option is not essential but will save some space in the box and avoid to cut soldering panels needed for machines to slide pcb. This option doesn't add much on the final cost.
 ![Step10](tuto/011.jpg)
 
-You just have to click on *Bottom side* meaning all our components will be soldered on the back.
 When done you just have to click on *Save to Cart*
 ![Step11](tuto/012.jpg)
 
@@ -114,4 +121,4 @@ And we are done you can submit your cart that will be reviewed.
 
 ![Step14](tuto/015.jpg)
 
-You don't have any extra step to manage, commercial and the whole PCBWay team will manage your uploaded files and solder everything at the correct positions. This is done by the footprints used and all the mandatory marks on the pcb.
+You don't have any extra step to manage, your commercial contact and the whole PCBWay team will manage your uploaded files and solder everything at the correct positions. This is done by the footprints used and all the mandatory marks on the pcb.
