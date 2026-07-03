@@ -18,4 +18,5 @@ Welcome to HLB projects documentation GitHub repository !
 ## PCB documentation
 You can find documentation for pcb flashing, pcb ordering if available as well as custom code to manage rgb.
 ### [HLB 60 Documentation](pcb/hlb60/README.md)
-### [HLB 40 Documentation](pcb/hlb40/README.md)
+### [HLB 40 Documentation in english](pcb/hlb40/README_eng.md)
+### [HLB 40 Documentation in french](pcb/hlb40/README_fr.md)

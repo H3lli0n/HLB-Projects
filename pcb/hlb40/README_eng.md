@@ -8,7 +8,7 @@ If you need their services please use the following link to support the team ! h
 # Description
 - 40% ANSI / ISO
   - Hotswap *HLB40-H*
-    - RP2040 MCU
+    - STM32F MCU
     - Capslock/Layers indicator
   - EC (Electro Capacitive) *HLB40-EC*
     - STM32F MCU
