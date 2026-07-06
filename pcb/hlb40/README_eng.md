@@ -38,12 +38,12 @@ Once you downloaded the pcb version you want, unzip the archive into a folder. Y
 
 ### Hotswap socket colors
 Hotswap sockets from Kailh brand are hard to find with online services. We are forced to use a generic brand but after many tests they are fine. They come in 3 colors (white/black/purple) and the global stock is also depending of the global economic context.
-In the BOM .csv file you can open with notepad you'll find them with Value = Keyswitch
+In the BOM .csv file you can open with notepad you'll find them with `Value = Keyswitch`
 
-Look at the column LCSC and you'll find a code you change depending on the wanted color and the global stock:
-- Purple = C41430893 : https://www.lcsc.com/product-detail/C41430893.html
-- White = C49352235  : https://www.lcsc.com/product-detail/C49352235.html
-- Black (Kailh) = C5156480   : https://jlcpcb.com/partdetail/Kailh-CPG151101S1116/C5156480
+Look at the column `LCSC` and you'll find a code you change depending on the wanted color and the global stock:
+- Purple = C41430893
+- White = C49352235
+- Black (Kailh) = C5156480
 
 ## Creating PCBWay account
 The next step is to create an account on PCBWay by following our affiliated link https://pcbway.com/g/4Gd3AJ - once your account created you will receive later a $5 coupon.
@@ -112,7 +112,7 @@ We are almost at the end with two orders in our cart, one for pcb manufacturing 
 
 ![Step12](tuto/013.jpg)
 
-As you can see, we have files to upload for the assembly, the two remaining described .csv files earlier.
+As you can see, we have files to upload for the assembly, the two remaining described `.csv` files earlier.
 One for position (*Upload Centroid file* in the form) and one for the list of components (*Parts Lists (BOM) upload*).
 
 ![Step13](tuto/014.jpg)

@@ -41,9 +41,9 @@ Les sockets Hotswap de la marque Kailh sont parfois difficiles à trouver chez l
 Dans le fichier BOM (.csv) que vous pouvez ouvrir avec le bloc-notes, vous les trouverez avec la mention `Value = Keyswitch`.
 
 Regardez la colonne `LCSC` et vous trouverez un code que vous pouvez modifier en fonction de la couleur souhaitée et des stocks disponibles :
-- Violet = C41430893 : https://www.lcsc.com/product-detail/C41430893.html
-- Blanc = C49352235  : https://www.lcsc.com/product-detail/C49352235.html
-- Noir (Kailh) = C5156480   : https://jlcpcb.com/partdetail/Kailh-CPG151101S1116/C5156480
+- Violet = C41430893
+- Blanc = C49352235
+- Noir (Kailh) = C5156480
 
 ## Création d'un compte PCBWay
 L'étape suivante consiste à créer un compte sur PCBWay en utilisant notre lien affilié : https://pcbway.com/g/4Gd3AJ. Une fois votre compte créé, vous recevrez plus tard un coupon de réduction de 5 $.
