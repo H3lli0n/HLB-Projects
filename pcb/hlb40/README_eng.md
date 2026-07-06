@@ -40,7 +40,7 @@ Once you downloaded the pcb version you want, unzip the archive into a folder. Y
 Hotswap sockets from Kailh brand are hard to find with online services. We are forced to use a generic brand but after many tests they are fine. They come in 3 colors (white/black/purple) and the global stock is also depending of the global economic context.
 In the BOM .csv file you can open with notepad you'll find them with `Value = Keyswitch`
 
-Look at the column `LCSC` and you'll find a code you change depending on the wanted color and the global stock:
+Look at the 5th column and you'll find a code you can change depending on the wanted color and the global stock:
 - Purple = C41430893
 - White = C49352235
 - Black (Kailh) = C5156480

@@ -40,7 +40,7 @@ Une fois la version du PCB souhaitée téléchargée, décompressez l'archive da
 Les sockets Hotswap de la marque Kailh sont parfois difficiles à trouver chez les prestataires en ligne. Nous sommes contraints d'utiliser une marque générique, mais après de nombreux tests, ils s'avèrent tout à fait fiables. Ils sont disponibles en 3 couleurs (blanc/noir/violet) et le stock global dépend également du contexte économique mondial.
 Dans le fichier BOM (.csv) que vous pouvez ouvrir avec le bloc-notes, vous les trouverez avec la mention `Value = Keyswitch`.
 
-Regardez la colonne `LCSC` et vous trouverez un code que vous pouvez modifier en fonction de la couleur souhaitée et des stocks disponibles :
+Regardez la 5ème colonne où vous trouverez un code que vous pouvez modifier en fonction de la couleur souhaitée et des stocks disponibles :
 - Violet = C41430893
 - Blanc = C49352235
 - Noir (Kailh) = C5156480
